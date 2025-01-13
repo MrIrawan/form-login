@@ -28,4 +28,4 @@ hello world! saya Farrel Irawan peserta dari coding camp 2025 powered by DBS fou
 Saya sangat menerima kontributor! Jika Anda memiliki saran atau perbaikan, silakan buka issue atau buat pull request.
 
 
-## Terimakasih
+**Terimakasih**
