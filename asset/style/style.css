@@ -5,64 +5,63 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.form-container {
+.form-wrapper {
     width: fit-content;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 2px;
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 0.9rem;
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.form-container .logo-wrapper {
-    display: flex;
-    justify-content: center;
+.form-container {
+    width: 100%;
+    padding: 1.5rem;
+    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.2);
+    border-bottom-right-radius: 0.9rem;
+    border-bottom-left-radius: 0.9rem;
 }
 
 .form-container form {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .form-container form label {
-    margin: 1rem 0 5px;
+    margin: 0.5rem 0;
     font-weight: 500;
 }
 
-.form-container input {
-    padding: 10px 5px;
+.form-container form input {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    outline: none;
     font-weight: 500;
+    margin-bottom: 1rem;
 }
 
 .button-wrapper {
-    margin: 1rem 0 1rem;
-    padding: 1rem 0;
-    display: flex;
-    justify-content: center;
+    padding: 1.5rem 0;
 }
 
 .button-wrapper button {
-    background: #2D3E50;
-    border: none;
-    color: white;
     width: 100%;
-    padding: 0.8rem 0;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    padding: 1rem;
+    background-color: #2D3E50;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
     font-weight: 600;
-    transition: background-color 0.2s ease-in-out;
-}
-
-/* pseudo class */
-
-.form-container form input::placeholder {
-    font-weight: 300;
+    font-size: 1.175rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .button-wrapper button:hover {
-    cursor: pointer;
-    background: #1A2A3C;
+    background-color: #1B263B;
 }
